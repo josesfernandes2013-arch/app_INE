@@ -59,8 +59,8 @@ if menu == "Graficos Estátiscos":
     fig, ax = plt.subplots()
     ax.pie(pop, labels=lab, autopct="%1.1f%%",startangle=90)
     ax.set_title("Grafico Circular"
-                ax.axis("equal")
-                 st.pyplot(fig)
+    ax.axis("equal")
+    st.pyplot(fig)
   
 
            
