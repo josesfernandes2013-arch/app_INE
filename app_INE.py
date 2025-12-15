@@ -8,3 +8,6 @@ menu = option_menu(menu_title="Menu",
                   default_index=0,
                   orientation="horizontal"
   )
+with st.sidebar:
+  st.success("**UPLOAD DE DADOS**")
+  
