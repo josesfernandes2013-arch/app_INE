@@ -26,5 +26,6 @@ with st.sidebar:
         
       else:
         st.info("Carregue um ficheiro Excel para começar")
-        
+if menu =="Inicio"
+with st.expander("**Sobre o Instituto Nacional de Estatistica**"),
   
