@@ -1,2 +1,2 @@
 import streamlit as st
-st.title("Exercicios Praticos INE")
+st.title("Introduzindo os Elementos de Streamlit")
