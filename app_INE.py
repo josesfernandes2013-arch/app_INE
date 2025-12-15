@@ -44,7 +44,7 @@ if menu == "Widgets":
   st.success(texto)
   
 if menu == "Graficos Estátiscos":
-  col1, col2, col3 = st.columns([0.45,0.1, 0.45])
+  col1, col2 = st.columns([1.5, 1.5])
   with col1:
     st.subheader("Coluna 1")
     dados_hist = [3,9,5,12,6,7,5,10,6,10]
