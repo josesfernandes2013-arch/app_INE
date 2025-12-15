@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu 
+st.set_page_config(
+    page_title="Introduzindo os Elementos de Streamlit",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 st.header("Introduzindo os Elementos de Streamlit")
 menu = option_menu(menu_title="Menu",
                   options=["Início", "Graficos Estátiscos", "Graficos Dinâmicos", "Widgets", "Formulário"],
