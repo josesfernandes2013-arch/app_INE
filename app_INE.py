@@ -25,7 +25,8 @@ with st.sidebar:
         st.table(df)
         
       else:
-        st.info("Carregue um ficheiro Excel para começar")
+         st.info("Carregue um ficheiro Excel para começar")
+        
 if menu =="Inicio":
     with st.expander("**Sobre o Instituto Nacional de Estatistica**"):
       st.write("O Instituto Nacional de Estatística (INE) é responsável " "pela produção e divulgação das estatísticas oficiais."
