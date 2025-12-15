@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu 
 st.set_page_config(
     page_title="Introduzindo os Elementos de Streamlit",
-    page_icon="📊",
+    page_icon="INE.png",   # arquivo local
     layout="wide",
     initial_sidebar_state="expanded"
 )
