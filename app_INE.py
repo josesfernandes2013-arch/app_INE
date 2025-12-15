@@ -14,4 +14,17 @@ with st.sidebar:
     "Clique no botão abaixo para Carregar um ficheiro",
     type=["xlsx","xls"]
   )
+  if dados:
+    def carregar_dados(dados):
+      try:
+        df = pd.read_excel(dados)
+        return df
+      except FileNotFoundError:
+        return pd.DataFrame()
+        df = carregar_dados(dados)
+        st.table(df)
+        
+      else:
+        st.info("Carregue um ficheiro Excel para começar")
+        
   
