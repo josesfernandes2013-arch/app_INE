@@ -46,6 +46,11 @@ if menu == "Graficos Estátiscos":
   col1, col2, col3 = st.columns([0.3, 0.1, 0.6])
   with col1:
     st.subheader("Coluna 1")
+    dados_hist = [3,9,5,12,6,7,5,10,6,10]
+    fig, ax =plt.subplots()
+    ax.hist (dados_hist, bins=5, color="skyblue", edgecolor="black")
+    ax.set_title("Histograma")
+    st.pyplot(fig)
     
   
 
