@@ -52,7 +52,15 @@ if menu == "Graficos Estátiscos":
     ax.hist (dados_hist, bins=5, color="skyblue", edgecolor="black")
     ax.set_title("Histograma")
     st.pyplot(fig)
-    
+  with col2:
+    st.subheader("Coluna 2")
+    lab = ["Python", "Java", "C++", "JavaScript"]
+    pop = [45,25,15,15]
+    fig, ax = plt.subplots()
+    ax.pie(pop, labels=lab, autopct="%1.1f%%",startangle=90)
+    ax.set_title("Grafico Circular"
+                ax.axis("equal")
+                 st.pyplot(fig)
   
 
            
