@@ -43,7 +43,7 @@ if menu == "Widgets":
   st.success(texto)
   
 if menu == "Graficos Estátiscos":
-  col1, col2, col3 = st.coluns([0.3, 0.1, 0.6])
+  col1, col2, col3 = st.columns([0.3, 0.1, 0.6])
   with col1:
     st.subheader("Coluna 1")
     
